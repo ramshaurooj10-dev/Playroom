@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { ActivityId, ActivityInfo } from './types';
 import { Navbar } from './components/Navbar';
-
+import { WelcomeScreen } from './components/WelcomeScreen';
 import { HomeScreen } from './components/HomeScreen';
 import { ACTIVITIES, PREMIUM_ACTIVITIES } from './data/activitiesList';
 import { ABCFun } from './components/activities/ABCFun';
