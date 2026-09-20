@@ -1,0 +1,32 @@
+{
+  "name": "Playroom",
+  "short_name": "Playroom",
+  "description": "Interactive 2D kids learning app for children aged 3–6 years featuring ABCs, colors, animal sounds, counting, object search, and shape matching.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F0F9FF",
+  "theme_color": "#0EA5E9",
+  "categories": ["education", "kids", "games"],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

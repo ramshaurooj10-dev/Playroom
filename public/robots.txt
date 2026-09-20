@@ -1,0 +1,12 @@
+# robots.txt for Playroom Preschool Learning App
+User-agent: *
+Allow: /
+
+# Disallow private parent areas, backend APIs, and session-specific states
+Disallow: /api/
+Disallow: /*?pin=*
+Disallow: /*?token=*
+Disallow: /*?auth=*
+
+# Sitemap location
+Sitemap: https://playroom-app.vercel.app/sitemap.xml
